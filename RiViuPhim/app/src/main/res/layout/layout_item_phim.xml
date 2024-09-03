@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tvMaPhim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ma Phim; "
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/tvTenPhim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ten Phim: "
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/tvNSX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nam San Xuat: "
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/tvQuocGia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quoc Gia: "
+            android:textSize="18dp"/>
+
+        <EditText
+            android:id="@+id/tvMotaPhim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine" />
+
+        <TextView
+            android:id="@+id/tvURLTrailer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="URLTrailer" />
+
+        <Button
+            android:id="@+id/btnXemThem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xem Them" />
+
+    </LinearLayout>
+
+</LinearLayout>

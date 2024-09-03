@@ -1,0 +1,10 @@
+<!-- res/drawable/selector_button.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Trạng thái khi button được nhấn -->
+    <item android:state_pressed="true" android:drawable="@drawable/rounded_background3" />
+
+    <!-- Trạng thái mặc định -->
+    <item android:state_hovered="true" android:drawable="@drawable/rounded_background" />
+
+</selector>

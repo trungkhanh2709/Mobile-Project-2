@@ -1,0 +1,5 @@
+<!-- Trong tệp rounded_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/black"/> <!-- Màu nền của layout -->
+    <corners android:radius="5dp"/> <!-- Bán kính của góc bo tròn, có thể điều chỉnh theo nhu cầu của bạn -->
+</shape>
